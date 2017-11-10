@@ -19,4 +19,5 @@
 $(call inherit-product, vendor/blocks/tophat/tophat-vendor-blobs.mk)
 
 PRODUCT_PACKAGES += \
+    TimeService \
     libtime_genoff
